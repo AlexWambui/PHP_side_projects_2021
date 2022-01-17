@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr{
+    border-color: white;
+}
+body{
+    background: #101820FF;
+    color: #efefef;
+    height: 100%;
+}
+
+.index_page{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/system_images/bg food.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.index_page_contents,
+.index_page_login_form{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.index_page_contents{
+    border-radius: 16px;
+    padding: 4px;
+    color: white;
+}
+.index_page_contents h1,
+.index_page_contents p{
+    text-align: center;
+    font-weight: bold;
+}
+.index_page_contents h1{
+    font-size: 2.5vw;
+}
+.index_page_contents p{
+    font-size: 1.5vw;
+}
+.index_page_contents ul{
+    padding: 4px 24px;
+    list-style: inside;
+}
+.index_page_login_form{
+    box-shadow: 2px 3px 4px white;
+    margin-left: 5vw;
+    border-radius: 32px;
+    color: white;
+}
+.index_page_login_form .form_header h1{
+    font-size: 2.5vw;
+    background: green;
+    padding: 12px 4px;
+    width: 80%;
+    margin: auto;
+}
+.index_page_login_form form{
+    text-align: center;
+    margin-top: 4%;
+}
+.index_page_login_form form input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 80%;
+    padding: 4px 8px;
+    margin: 6px auto;
+    color: white;
+}
+.index_page_login_form form input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+.custom_btn{
+    border-radius: 32px;
+    padding: 4px 48px;
+    border: none;
+    outline: none;
+    background: green;
+    color: white;
+}
+.custom_btn:hover{
+    opacity: 0.7;
+}
+
+aside{
+    background: -webkit-linear-gradient(rgb(0,0,0), rgb(0, 0, 0));
+    background-size: cover;
+    width: 14%;
+    height: 100%;
+    color: white;
+    position: relative;
+    position: fixed;
+}
+.app_name h1{
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px white;
+    padding: 4px;
+    margin: auto;
+}
+.nav_links{
+    margin-top: 10%;
+}
+.nav_links li{
+    width: 95%;
+    margin: auto;
+    padding: 2px 8px;
+}
+.nav_links a{
+    display: block;
+}
+.account{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
+.account_btn,
+.nav_links a{
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    padding: 2px 32px;
+    margin: 2px;
+}
+.account button:hover{
+    background: red;
+    color: white;
+}
+aside a{
+    color: black;
+    text-decoration: none;
+}
+aside a:hover{
+    background: black;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.main_content{
+    width: 86%;
+    margin-left: 14%;
+}
+
+
+.meal_card{
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px white;
+    padding: 6px;
+    margin: 4px auto;
+    width: 200px;
+}
+.meal_card_header{
+    text-align: center;
+}
+.meal_card_header img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.meal_card_body{
+    padding: 2px 8px;
+}
+.meal_card_body h1{
+    text-align: center;
+    font-size: 2vw;
+}
+.meal_card_body p{
+    margin: unset;
+    font-size: 1.2vw;
+}
+.meal_card_footer{
+    display: flex;
+}
+.action_button{
+    margin: 0 2px;
+}
+
+.action_buttons_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action_buttons button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 3px;
+}
+.action_buttons button span{
+    margin-right: 1px;
+    font-size: inherit;
+}
+
+.dashboard_content{
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px white;
+    margin: 8px;
+    padding: 4px 16px;
+    width: 30%;
+}
+.dashboard_content h1{
+    font-size: 1.8vw;
+    border-bottom: 1px dotted greenyellow;
+    padding-bottom: 4px;
+}
+.dashboard_content p{
+    margin: unset;
+}
+
+.receipt_wrapper{
+    border: 1px dashed black;
+    padding: 6px 15px;
+}
