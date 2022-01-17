@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.linear_gradient_image{
+    background: -webkit-linear-gradient(rgb(67, 150, 146), rgba(146, 41, 75, 0.8)), url("../images/system_images/parking.jpg"), no-repeat;
+    background-size: cover;
+}
+.vh_6{height: 6vh;}
+.vh_8{height: 8vh;}
+.vh_88{height: 88vh;}
+.vh_92{height: 92vh;}
+.vh_94{height: 94vh;}
+.bg_card_headers{
+    color: rgb(67, 150, 146);
+}
+
+.app_name a{
+    color: #efefef;
+    text-decoration: none;
+}
+.login_links a{
+    color: #000;
+    background: #efefef;
+    border: none;
+    border-radius: 16px;
+    padding: 0 32px;
+    margin: 0 4px;
+}
+.login_links a:hover{
+    text-decoration: none;
+    background: lightblue;
+    color: blue;
+}
+.index_page_header{
+    background: #000;
+}
+.index_page_main{
+    padding-top: 40px;
+}
+.index_page_main h1,
+.index_page_main h2,
+.index_page_main p{
+    color: #fff;
+}
+.index_page_main h1{
+    font-weight: 600;
+}
+.index_page_main h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn_registration{
+    background: rgb(67, 150, 146);
+    padding: 4px 32px;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+}
+
+header{
+    background: black;
+    color: white;
+}
+header p{
+    margin: unset;
+    line-height: 6vh;
+}
+header a{
+    line-height: 6vh;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header .app_name{
+    font-weight: 700;
+}
+header .app_features{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .profile_details{
+    display: flex;
+    justify-content: end;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropdown-content button{
+    border: none;
+    outline: none;
+    background: inherit;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: row;
+}
+.action{
+    margin: 0 3px;
+}
+.action .btn{
+    padding: 0 6px;
+}
+
+.receipt{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 4px 15px;
+}
+.receipt_header{
+    border-bottom: 1px solid black;
+}
+.receipt_header .app_name p,
+.receipt_header .extra_receipt_header_details p,
+.receipt_footer p{
+    margin: unset;
+    font-family: helvetica;
+    text-align: center;
+}
+.receipt_header .app_name p{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.receipt_header .extra_receipt_header_details p{
+    font-style: italic;
+}
+.dashboard h1{
+    color: #fff;
+}
+.dashboard_wrapper a{
+    color: rgba(67, 150, 146);
+    text-decoration: none;
+    font-weight: 500;
+}
+.dashboard_wrapper{
+    text-align: center;
+    background: #fff;
+    border-radius: 32px;
+    margin: 0 4px;
+    padding: 8px 8px;
+}
