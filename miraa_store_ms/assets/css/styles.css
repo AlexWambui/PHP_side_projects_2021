@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.index_page_container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.index_page_image{
+    background: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../images/system_images/miraa.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.index_page_contents{
+    background: -webkit-linear-gradient(rgba(45, 223, 241, 0.4), rgba(16, 183, 191, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.index_page_button a{
+    border-radius: 16px;
+    background: brown;
+    padding: 8px 48px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.index_page_app_name{
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.login_page{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/system_images/login_bg.jpeg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+aside{
+    width: 12%;
+    position: relative;
+    position: fixed;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/system_images/miraa.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+aside .app_name h1{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 15%;
+}
+aside .nav_links ul{
+    list-style: none;
+    padding: 4px 12px;
+}
+aside .nav_links ul li{
+    width: 97%;
+    border-bottom: 1px solid white;
+    padding: 4px 8px;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+aside a:hover{
+    text-decoration: none;
+    background: gainsboro;
+    color: black;
+    border-left: 4px solid green;
+}
+aside .account{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+aside .account a{
+    color: black;
+}
+aside .account_btn{
+    background: white;
+    width: 80%;
+    border: none;
+    border-left: 4px solid green;
+    padding: 4px;
+    margin: 4px auto;
+    font-weight: bold;
+}
+aside .account button:hover{
+    background: red;
+    color: white;
+}
+
+.main_content{
+    width: 88%;
+    margin-left: 12%;
+}
+
+.dashboard_content{
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    margin: 4px;
+}
+.dashboard_content h1{
+    font-size: 1.8vw;
+}
+
+.action_buttons_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action_buttons button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 3px;
+}
+.action_buttons button span{
+    margin-right: 1px;
+    font-size: inherit;
+}
