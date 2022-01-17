@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.index_page{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/system_images/exams.jpg") no-repeat center;
+    background-size: cover;
+}
+.index_page_content{
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+}
+.index_page_start_btn{
+    margin-top: 2%;
+}
+.index_page_start_btn a{
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    background: #00ffe0;
+    color: black;
+    padding: 8px 48px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login_page{
+    background: #0b2e13;
+    width: 100vw;
+    height: 100vh;
+}
+
+aside{
+    width: 12%;
+    position: relative;
+    position: fixed;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/system_images/miraa.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+aside .app_name h1{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 15%;
+}
+aside .nav_links ul{
+    list-style: none;
+    padding: 4px 12px;
+}
+aside .nav_links ul li{
+    border-bottom: 1px solid white;
+    padding: 4px 0;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+aside a:hover{
+    text-decoration: none;
+    background: gainsboro;
+    color: black;
+}
+aside .account{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+aside .account a{
+    color: black;
+}
+aside .account_btn{
+    background: white;
+    width: 80%;
+    border: none;
+    border-left: 4px solid green;
+    padding: 4px;
+    margin: 4px auto;
+    font-weight: bold;
+}
+aside .account button:hover{
+    background: red;
+    color: white;
+}
+
+.main_content{
+    width: 88%;
+    margin-left: 12%;
+}
+
+.dashboard_content{
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    margin: 4px;
+}
+.dashboard_content h1{
+    font-size: 1.8vw;
+}
+
+.action_buttons_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action_buttons button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 3px;
+}
+.action_buttons button span{
+    margin-right: 1px;
+    font-size: inherit;
+}
+
+.subjects .col .form-group{
+    margin-bottom: 2px;
+}
+.subjects .col .form-group p{
+    height: 31px;
+    margin: unset;
+    text-align: right;
+}
+.grading_system p{
+    margin: unset;
+}
