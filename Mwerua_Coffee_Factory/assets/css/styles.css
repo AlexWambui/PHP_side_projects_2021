@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    color: #efefef;
+}
+._small_text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.linear_background{
+    background: -webkit-linear-gradient(rgb(138, 98, 74), rgba(195, 55, 100, 0.8));
+    color: #fff;
+}
+._card_header{
+    background: #8A624A;
+    color:#fff;
+}
+.feedback_form{
+    height: 98vh;
+}
+.feedback_form .card-body{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.feedback_message,
+.feedback_response{
+    width: 90%;
+    margin-bottom: 4px;
+    padding-top: initial;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: initial;
+    border-radius: 16px;
+    font-weight: 600;
+    color: white;
+}
+.feedback_message{
+    background: rgba(195, 55, 100, 0.8);
+    border-bottom-right-radius: 4px;
+}
+.feedback_response{
+    background: rgba(138, 98, 74, 0.8);
+    border-top-left-radius: 2px;
+}
+
+/*main_content*/
+.main_content{
+    width: 85%;
+    margin-left: 14.2%;
+    padding: 4px;
+}
+
+/*side_nav*/
+.side_navbar{
+    background: -webkit-linear-gradient(rgb(138, 98, 74), rgba(195, 55, 100, 0.8)), url("../images/coffee_beans.jpg");
+    width: 14%;
+    height: 100%;
+    position: relative;
+    position: fixed;
+}
+.side_navbar .nav_links{
+    list-style: none;
+    margin: 10px;
+}
+.side_navbar .nav_item{
+    padding: 3px;
+}
+.nav_item_bordered{
+    border-bottom: 1px solid white;
+}
+.side_navbar .bottom_link{
+    position: absolute;
+    bottom: 50px;
+}
+.side_navbar .nav_item a:hover{
+    text-decoration: none;
+    color: #fdfdfd;
+    opacity: 0.7;
+}
+
+/*landing_page*/
+.landing_page,
+.login_page{
+    height: 100vh;
+    max-width: 100vw;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgb(138, 98, 74), rgba(195, 55, 100, 0.8)), url("../images/coffee_beans.jpg");
+    background: linear-gradient(rgb(138, 98, 74), rgba(195, 55, 100, 0.8)), url("../images/coffee_beans.jpg"); /* The least supported option. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.landing_page_text h1, a{
+    color: #efefef;
+    font-family: Arial, helvetica;
+    font-weight: 700;
+}
+.landing_page_text h1{
+    font-size: 2.9rem;
+}
+.landing_page_text a{
+    border: 2px solid #efefef;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 16px 48px;
+    font-size: 1.2rem;
+    color: yellow;
+}
+.landing_page_text a:hover{
+    text-decoration: none;
+    background: rgba(195, 55, 100, 0.8);
+    border: 2px solid rgba(195, 55, 100, 0.9);
+    color: #efefef;
+    transition: 0.5s ease-in-out;
+    opacity: .8;
+}
+
+/*login_page*/
+.login_form_card{
+    background: black;
+    border: 1px solid #fff;
+    color: #fff;
+    box-shadow: 6px 6px 12px black;
+}
+.login_form_card .card-header{
+    border-bottom: 1px solid #fff;
+}
+.login_form_card,
+.login_form_card input,
+.login_form_card input:focus{
+    background: transparent;
+    color: #fff;
+}
+.login_form_card input::placeholder{
+    color: #fff;
+}
+#login_button,
+#signup_button{
+    border-radius: 50px;
+    padding: 6px 64px;
+    border: none;
+    background-color: #c33764;
+}
+#login_button:hover,
+#signup_button:hover {
+    opacity: .8;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: row;
+}
+.action{
+    margin: 0 3px;
+}
+.action .btn{
+    padding: 0 6px;
+}
+
+.dashboard_container{
+    background: #c33764;
+    color: #fff;
+    border-radius: 16px;
+    margin: 0 4px;
+    padding: 4px 15px;
+    box-shadow: #000 2px 2px 4px;
+}
+.dashboard_container_header{
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+}
+
+.report{
+    border: 1px solid black;
+    margin: 15px auto;
+    width: 50%;
+}
+.report_header{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.report_header h1,
+.report_header p{
+    margin: unset;
+    font-family: helvetica;
+}
+.report_header h1{
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+.report_header p{
+    font-style: italic;
+    font-weight: 400;
+}
+.report_body .payment_status{
+    border: 3px solid red;
+    padding: 4px;
+    text-decoration: line-through;
+    box-shadow: black 2px 2px 4px;
+}
+.report_body p::before{
+    content: '# ';
+}
+.report_body span{
+    font-style: italic;
+    color: #000;
+    font-weight: 550;
+}
+.report_footer{
+    text-align: center;
+    border-top: 1px solid black;
+}
